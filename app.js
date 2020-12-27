@@ -9,5 +9,9 @@ const todoList = document.querySelector(".todo-list");
 todoButton.addEventListener("click", addTodo);
 //Functions
 function addTodo(event){
+    //Prevent form from submitting
     event.preventDefault();
+    //Todo DIV
+    const todoDiv = document.createElement("div");
+    todoDiv.classList.add("todo")
 }
